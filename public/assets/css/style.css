@@ -1,0 +1,92 @@
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Kameron', serif;
+*/
+
+
+body{
+    background-color:black;
+    margin:0;
+    color:white;
+}
+
+#navBar{
+    width:100%;
+    height:50px;
+    background-color:yellow;
+    z-index:4;
+    position: fixed;
+    top:0;
+}
+
+#intro,#about,#portfolio,#links{
+    position: relative;
+    z-index:1;
+    width:100%;
+    height:100%;
+    display:block; 
+}
+
+#intro{
+    background-size:cover;
+    background-image: url(../img/bg_img.jpg);
+}
+
+#titleTextDiv1, #titleTextDiv2{
+    position:absolute;
+    z-index:2;
+    font-family: 'Anton', sans-serif;
+}
+
+#titleTextDiv1{
+    font-size:100px;
+    left:5%;
+    bottom:35%;
+}
+
+#titleTextDiv2{
+    font-size:60px;
+    left:14%;
+    bottom:27%;
+}
+
+.moveBtn{
+    transform: rotate(90deg);
+    position:absolute;
+    bottom:5%;
+    left:46%;
+    font-size:40px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color:transparent;
+    color:white;
+    cursor: pointer;
+}
+
+.moveBtn:hover{
+    background-color: grey;
+    /* color:black; */
+}
+
+
+@media screen and (max-width: 430px) {
+    #titleTextDiv1{
+        font-size:55px;
+    }
+    #titleTextDiv2{
+        font-size:35px;
+    }
+}
+
+a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+    color:white;
+    font-size:30px
+}
+
+a{
+    scroll-behavior: smooth;
+}
