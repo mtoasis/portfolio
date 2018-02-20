@@ -8,21 +8,80 @@ font-family: 'Kameron', serif;
 
 
 body{
-    background-color:black;
+    background-color:white;
     margin:0;
-    color:white;
+    color:black;
+}
+
+#aboutTxt{
+    position:absolute;
+    width:30%;
+    left:10%;
+    top:20%;
+
+}
+#aboutImg{
+    position:absolute;
+    width:30%;
+    right:10%;
+    top:20%;
+
+}
+
+.subtitle{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+.skillImg{
+    max-width:300px;
+    float:left;
+
+}
+
+.portfolioItem{
+    width:15%;
+    border:solid black 2px;
+    height:40%;
+    padding:3%;
+
+    float:left;
+}
+
+#portfolioItemDiv{
+    margin:25% 5% 5% 0;
+    display:block;
+}
+
+#skillImgDiv{
+    position:absolute;
+    top:35%;
+    left:0;
+    background-color:blue;
+    width:100%;
 }
 
 #navBar{
     width:100%;
     height:50px;
-    background-color:yellow;
+    background-color:black;
     z-index:4;
     position: fixed;
     top:0;
 }
 
-#intro,#about,#portfolio,#links{
+#footer{
+    width:100%;
+    height:40px;
+    background-color:black;
+    z-index:4;
+    position: fixed;
+    bottom:0;
+}
+
+#intro,#about,#portfolio,#links,#skill{
     position: relative;
     z-index:1;
     width:100%;
@@ -32,7 +91,8 @@ body{
 
 #intro{
     background-size:cover;
-    background-image: url(../img/bg_img.jpg);
+    background-image: url("../img/bg_img.jpg");
+    color:white;
 }
 
 #titleTextDiv1, #titleTextDiv2{
@@ -53,18 +113,20 @@ body{
     bottom:27%;
 }
 
-.moveBtn{
+.moveBtn,.upBtn{
     transform: rotate(90deg);
     position:absolute;
-    bottom:5%;
+    bottom:1.5%;
     left:46%;
     font-size:40px;
-    border:1px solid white;
+    border:1px solid darkgray;
     border-radius: 5px;
     background-color:transparent;
-    color:white;
+    color:darkgray;
     cursor: pointer;
+    z-index:5
 }
+
 
 .moveBtn:hover{
     background-color: grey;

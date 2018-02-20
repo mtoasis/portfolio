@@ -4,7 +4,7 @@
   "description": "Julian's Portfolio page",
   "main": "server.js",
   "scripts": {
-    "start":"nodemon server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
