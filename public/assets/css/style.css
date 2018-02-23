@@ -13,7 +13,7 @@ body{
     color:black;
 }
 
-#aboutTxt{
+/* #aboutTxt{
     position:absolute;
     width:30%;
     left:10%;
@@ -25,8 +25,7 @@ body{
     width:30%;
     right:10%;
     top:20%;
-
-}
+} */
 
 .subtitle{
     font-size: 50px;
@@ -35,11 +34,7 @@ body{
     left: 5%;
     top: 10%;
 }
-.skillImg{
-    max-width:300px;
-    float:left;
 
-}
 
 .portfolioItem{
     width:15%;
@@ -55,12 +50,17 @@ body{
     display:block;
 }
 
-#skillImgDiv{
-    position:absolute;
-    top:35%;
-    left:0;
-    background-color:blue;
-    width:100%;
+.contentDiv{
+    position: absolute;
+    top: 20%;
+    margin-left: 15%;
+    width: 75%;
+    height: 70%;
+    background-color: blue;
+}
+.skillImg{
+    max-width: 25%;
+    margin: 3%;
 }
 
 #navBar{
@@ -133,6 +133,11 @@ body{
     /* color:black; */
 }
 
+#jqImg{
+    top:0;
+    left:0;
+}
+
 
 @media screen and (max-width: 430px) {
     #titleTextDiv1{
@@ -141,7 +146,33 @@ body{
     #titleTextDiv2{
         font-size:35px;
     }
+    /* #aboutTxt{
+        position: absolute;
+        width: 83%;
+        left: 10%;
+        top: 50%;
+    }
+    #aboutImg{
+        position: absolute;
+        width: 30%;
+        left: 25%;
+        top: 20%;
+    } */
+
+    #profileImg{
+        width:190px;
+    }
+
+    .contentDiv{
+        position: absolute;
+        top: 20%;
+    }
+    .skillImg{
+        max-width: 55%;
+    }   
 }
+
+
 
 a:link,a:visited,a:hover,a:active {
     text-decoration: none;
