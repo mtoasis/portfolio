@@ -6,6 +6,10 @@ font-family: 'Patua One', cursive;
 font-family: 'Kameron', serif;
 */
 
+.genTxt{
+    font-size:16px;
+}
+
 
 body{
     background-color:white;
@@ -56,10 +60,9 @@ body{
     margin-left: 15%;
     width: 75%;
     height: 70%;
-    background-color: blue;
 }
 .skillImg{
-    max-width: 25%;
+    max-width: 50%;
     margin: 3%;
 }
 

@@ -8,4 +8,12 @@ $(document).ready(function () {
         })
     })
 
+    $("#pfImg1").hover(function(){
+        $(this).attr("src", "assets/img/mobilescp.gif")
+    })
+
+    $("#pfImg1").mouseout(function(){
+        $(this).attr("src", "assets/img/mbsp.png")
+    })
+
 })

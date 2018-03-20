@@ -3,10 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- reset css -->
     <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
+    <!-- semantic ui -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
+
+
+    <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Kameron|Anton|Archivo+Narrow|Oxygen|Patua+One" rel="stylesheet">
     <title>Julian's Portfolio Page</title>
 </head>
@@ -21,83 +31,82 @@
             <div id="titleTextDiv2">Web Developer</div>
             <button class="moveBtn" target="#skill">></button>
         </div>
+    </div>
 
-        <!-- <div id="about">
-            <p class="subtitle">About</p>
+    <div id="skill">
+        <p class="subtitle">Skills</p>
+        <div class="contentDiv">
 
-            <div class="contentDiv">
-                <div id="aboutImg">
-                    <img src="assets/img/profile.jpg" id="profileImg">
+            <div class="ui two column stackable grid">
+                <div class="column">
+                    <div class="ui segment">
+                        <p>
+                            <img class="skillImg" src="assets/img/react.png">
+                        </p>
+                        <span class="genTxt">
+                            React and React native are my main frameworks. I can bring the most efficient developing solution in timely manner.
+                        </span>
+                    </div>
                 </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <p>
+                            <img class="skillImg" src="assets/img/redux.png">
+                        </p>
 
-                <div id="aboutTxt">
-                    <span class="genTxt">
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
-                        from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-                        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum
-                        passage, and going through the cites of the word in classical literature, discovered the undoubtable
-                        source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-                        Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
-                        ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-                        amet..", comes from a line in section 1.10.32.
-                    </span>
+                        <span class="genTxt">
+                            I use Redux to maintain the data-state flows in React/ React native applications.
+                        </span>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <p>
+                            <img class="skillImg" src="assets/img/mongodblogo.png">
+                        </p>
+                        <p>
+                            <img class="skillImg" src="assets/img/mysqllogo.png">
+                        </p>
+                        <span class="genTxt">
+                            Mongo DB and MySQL are my main database tools. Mongoose and Sequelize are used to maintain the database structure efficiently.
+                        </span>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <p>
+                            <img class="skillImg" src="assets/img/nodelogo.png">
+                        </p>
+                        <span class="genTxt">
+                            Mongo DB and MySQL are my main database tools. Mongoose and Sequelize are used to maintain the database structure efficiently.
+                        </span>
+                    </div>
                 </div>
             </div>
 
-            <button class="moveBtn" target="#skill">></button>
-        </div> -->
-
-        <div id="skill">
-
-            <p class="subtitle">Skills</p>
-
-            <div class="contentDiv">
-                <img class="skillImg" src="assets/img/big3.png">
-                <img class="skillImg" src="assets/img/nodelogo.png">
-                <img class="skillImg" src="assets/img/mysqllogo.png">
-                <img class="skillImg" src="assets/img/mongodblogo.png">
-                <img class="skillImg" id="jqImg" src="assets/img/jquery.jpg">
-
-            </div>
 
             <button class="moveBtn" target="#portfolio">></button>
         </div>
-
-        <div id="portfolio">
-
-            <p class="subtitle">Portfolio</p>
-
-            <div class="contentDiv">
-
-                <div id="portfolioItemDiv">
-                    <div class="portfolioItem">
-                        Portfolio1
-                    </div>
-
-
-                    <div class="portfolioItem">
-                        Portfolio2
-                    </div>
-
-
-                    <div class="portfolioItem">
-                        Portfolio3
-                    </div>
-                </div>
-            </div>
+    </div>
 
 
 
+    <div id="portfolio">
+        <button class="moveBtn" target="#links">></button>
+        <p class="subtitle">Portfolio</p>
 
-            <button class="moveBtn" target="#links">></button>
-        </div>
-        <div id="links">
-
-            <p class="subtitle">Links</p>
+    </div>
 
 
-            <button class="moveBtn" target="#intro">o</button>
-        </div>
+    <div id="links">
+
+        <p class="subtitle">Links</p>
+
+
+
+        <button class="moveBtn" target="#intro">o</button>
+    </div>
     </div>
 
     </div>
