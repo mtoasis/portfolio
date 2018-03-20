@@ -12,58 +12,43 @@ font-family: 'Kameron', serif;
 
 
 body{
-    background-color:white;
+    background-color:black;
     margin:0;
-    color:black;
+    color:white;
 }
-
-/* #aboutTxt{
-    position:absolute;
-    width:30%;
-    left:10%;
-    top:20%;
-
-}
-#aboutImg{
-    position:absolute;
-    width:30%;
-    right:10%;
-    top:20%;
-} */
 
 .subtitle{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
     left: 5%;
-    top: 10%;
+    top: 5%;
 }
 
 
-.portfolioItem{
-    width:15%;
-    border:solid black 2px;
-    height:40%;
-    padding:3%;
-
-    float:left;
-}
-
-#portfolioItemDiv{
-    margin:25% 5% 5% 0;
+.pfImg{
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
     display:block;
+    cursor:pointer;
+    position: relative;
+    top: 15%;
 }
+
 
 .contentDiv{
     position: absolute;
-    top: 20%;
-    margin-left: 15%;
-    width: 75%;
+    top: 17%;
+    margin-left: 10%;
+    width: 80%;
     height: 70%;
 }
 .skillImg{
-    max-width: 50%;
-    margin: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width:100%;
 }
 
 #navBar{
@@ -84,7 +69,7 @@ body{
     bottom:0;
 }
 
-#intro,#about,#portfolio,#links,#skill{
+#intro,#about,.portfolio,#links,#skill{
     position: relative;
     z-index:1;
     width:100%;
@@ -92,11 +77,21 @@ body{
     display:block; 
 }
 
-#intro{
+
+
+#intro, #pfIntro{
     background-size:cover;
-    background-image: url("../img/bg_img.jpg");
     color:white;
 }
+
+
+#intro{
+    background-image: url("../img/bg_img.jpg");
+}
+#pfIntro{
+    background-image: url("../img/pf_bg.jpg");
+}
+
 
 #titleTextDiv1, #titleTextDiv2{
     position:absolute;
@@ -117,10 +112,9 @@ body{
 }
 
 .moveBtn,.upBtn{
-    transform: rotate(90deg);
     position:absolute;
     bottom:1.5%;
-    left:46%;
+    left:41%;
     font-size:40px;
     border:1px solid darkgray;
     border-radius: 5px;
@@ -133,7 +127,7 @@ body{
 
 .moveBtn:hover{
     background-color: grey;
-    /* color:black; */
+
 }
 
 #jqImg{
@@ -149,18 +143,6 @@ body{
     #titleTextDiv2{
         font-size:35px;
     }
-    /* #aboutTxt{
-        position: absolute;
-        width: 83%;
-        left: 10%;
-        top: 50%;
-    }
-    #aboutImg{
-        position: absolute;
-        width: 30%;
-        left: 25%;
-        top: 20%;
-    } */
 
     #profileImg{
         width:190px;
@@ -171,7 +153,7 @@ body{
         top: 20%;
     }
     .skillImg{
-        max-width: 55%;
+        max-width: 100%;
     }   
 }
 
@@ -186,3 +168,4 @@ a:link,a:visited,a:hover,a:active {
 a{
     scroll-behavior: smooth;
 }
+
