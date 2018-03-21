@@ -16,4 +16,12 @@ $(document).ready(function () {
         $(this).attr("src", "assets/img/mbsp.png")
     })
 
+    $("#pfImg3").hover(function(){
+        $(this).attr("src", "assets/img/card.gif")
+    })
+
+    $("#pfImg3").mouseout(function(){
+        $(this).attr("src", "assets/img/cardmain.png")
+    })
+
 })

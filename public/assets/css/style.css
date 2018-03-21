@@ -25,16 +25,105 @@ body{
     top: 5%;
 }
 
+.portfolioDiv{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image: url("../img/blackboard3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Indie Flower', cursive;
+    color:white;
+    box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolioImg{
+    position: absolute;
+    top: 9%;
+    left: 0;
+    width: 40%;
+    height: 80%;
+}
 
 .pfImg{
     max-width:100%;
+    max-height:100%;
     margin-left:auto;
     margin-right:auto;
     display:block;
-    cursor:pointer;
-    position: relative;
-    top: 15%;
 }
+
+#pfImg2{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+#links{
+    color:black
+}
+.pfSkillImg{
+    max-width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block
+}
+
+
+.pfContents{
+    position: absolute;
+    top:15%;
+    width:100%;
+    height:85%;   
+}
+
+.portfolioText{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    width: 60%;
+    height: 50%;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 50px;
+    padding-top:100px;
+}
+
+.portfolioETC{
+    position:absolute;
+    top:50%;
+    left:40%;
+    width:60%;
+    height:50%;   
+}
+
+.portfolioLink1{
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:50%;
+    height:100%;
+    padding-top:50px;
+}
+
+.portfolioLink2{
+    position:absolute;
+    top:0%;
+    left:50%;
+    width:50%;
+    height:100%;
+    padding-top:50px;
+}
+
+.linkImg{
+    max-width: 100%
+}
+
+.linkText{
+    font-size:100px
+}
+
 
 
 .contentDiv{
@@ -62,11 +151,10 @@ body{
 
 #footer{
     width:100%;
-    height:40px;
     background-color:black;
-    z-index:4;
-    position: fixed;
     bottom:0;
+    position:absolute;
+    height:5%
 }
 
 #intro,#about,.portfolio,#links,#skill{
@@ -114,7 +202,7 @@ body{
 .moveBtn,.upBtn{
     position:absolute;
     bottom:1.5%;
-    left:41%;
+    left:46%;
     font-size:40px;
     border:1px solid darkgray;
     border-radius: 5px;
