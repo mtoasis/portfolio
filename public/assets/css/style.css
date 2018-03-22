@@ -23,6 +23,7 @@ body{
     position: absolute;
     left: 5%;
     top: 5%;
+    font-family: 'Play', sans-serif;
 }
 
 .portfolioDiv{
@@ -42,7 +43,7 @@ body{
 .portfolioImg{
     position: absolute;
     top: 9%;
-    left: 0;
+    left: 3%;
     width: 40%;
     height: 80%;
 }
@@ -126,7 +127,7 @@ body{
 }
 
 .linkText{
-    font-size:100px
+    font-size:85px
 }
 
 

@@ -13,7 +13,7 @@ $(document).ready(function () {
     })
 
     $("#pfImg1").mouseout(function(){
-        $(this).attr("src", "assets/img/mbsp.png")
+        $(this).attr("src", "assets/img/mobilescpmain.png")
     })
 
     $("#pfImg3").hover(function(){
@@ -21,7 +21,7 @@ $(document).ready(function () {
     })
 
     $("#pfImg3").mouseout(function(){
-        $(this).attr("src", "assets/img/cardmain.png")
+        $(this).attr("src", "assets/img/cardma.png")
     })
 
 
