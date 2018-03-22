@@ -24,4 +24,13 @@ $(document).ready(function () {
         $(this).attr("src", "assets/img/cardmain.png")
     })
 
+
+    $(".linkImg").hover(function(){
+        $(this).css("border","solid white 1px")
+    })
+
+    $(".linkImg").mouseout(function(){
+        $(this).css("border","none")
+    })
+
 })
