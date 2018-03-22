@@ -21,7 +21,7 @@ $(document).ready(function () {
     })
 
     $("#pfImg3").mouseout(function(){
-        $(this).attr("src", "assets/img/cardma.png")
+        $(this).attr("src", "assets/img/cardm.png")
     })
 
 
